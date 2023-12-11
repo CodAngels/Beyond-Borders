@@ -1,4 +1,4 @@
-# CS171-Piazza-Party
+# CS171-Farm Force
 ### Team Members: Roy Onyando, Ivy Tirok, and Maggie Mano
 
 ## Project Description
@@ -6,7 +6,7 @@ Moving and choosing a new place to live, whether for work or long-term, can be b
 
 ## URL to Website: https://codangels.github.io/Beyond-Borders/
 
-## URL to Video: https://drive.google.com/file/d/1GYRY_h3hDhkQKnye-dSU7zh1T76NmR4j/view?usp=sharing
+## URL to Video: https://drive.google.com/file/d/1O_epPNFzzsnH4zZhn-WqrL2KLnUmPeb8/view?usp=drive_link
 
 ## Project Structure
 
