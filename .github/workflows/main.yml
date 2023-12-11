@@ -1,0 +1,36 @@
+name: Build and Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Set this to the branch containing your site's source code
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js (if you need it for building the site, e.g., for webpack or other JS tools)
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14' # Specify the Node.js version you want to use
+
+    - name: Install Dependencies (if you have any, like npm or bundler)
+      run: |
+        npm install
+        # Or for Jekyll/Ruby projects:
+        # bundle install
+
+    - name: Build (run your build script here)
+      run: |
+        npm run build
+        # Or for Jekyll:
+        # bundle exec jekyll build
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./implementation # Directory containing your built site
