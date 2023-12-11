@@ -1,0 +1,286 @@
+    <div class="section fp-section fp-table fp-is-overflow" id="section2" data-anchor="2ndpage" style="padding-left: 10px; padding-right: 10px;">-->
+<!--            <div class="container mt-5">-->
+<!--                    <div class="col-md-6" style="text-align: left;">-->
+<!--                        <div class="row justify-content-center">-->
+<!--                            <h1 style="font-size: 50px; padding-bottom: 30px;">Welcome To Beyond Borders</h1>-->
+<!--                        </div>-->
+<!--                        <div class="row justify-content-center">-->
+<!--                            <p> Embark on an extraordinary and personalized journey with "Beyond Borders," an interactive, visualization tool designed-->
+<!--                            to assist you in finding te perfect state and home. </p>-->
+<!--                        </div>-->
+<!--                            <p>It is difficult to navigate the unfamiliar terrain of a new country. "Beyond Borders" strives to redefine your relocation experience-->
+<!--                            by providing a comprehensive and user-friendly solution. </p>-->
+<!--                        <div class="row justify-content-center">-->
+<!--                            <p>First you will answer a simple set of questions reflecting your wishes and priorities of which our matching algorithm will select a state that aligns with these chosen-->
+<!--                            preferences. Following that, you will dive into a captivating journey through your matched state that will reveal details about-->
+<!--                            age, racial and climate breakdowns for your state. The narrative does not stop there as you will then be able to observe comprehensive comparisons,-->
+<!--                            contrasting your chosen state against others across the nation. </p>-->
+<!--                        </div>-->
+<!--                        <div class="row justify-content-center">-->
+<!--                            <p>Whether you are a student, a professional, or a family, "Beyond Borders" will help you find the perfect state for you.-->
+<!--                            We hope that you will enjoy your journey with us!</p>-->
+<!--                        </div>-->
+<!--                        <div class="row justify-content-center">-->
+<!--                        <p>"Beyond Borders" emerges as not just a tool but a guide, helping pave the path toward the ideal home for-->
+<!--                            you and thus fostering a sense of comfort and confidence in the face of the unknown.</p>-->
+<!--                        </div>-->
+<!--                    <div class="col-md-6">-->
+<!--                        <div class="paperplane">-->
+<!--                            <div class="plane">-->
+<!--                                <div class="wingRight"></div>-->
+<!--                                <div class="wingLeft"></div>-->
+<!--                                <div class="bottom"></div>-->
+<!--                                <div class="top"></div>-->
+<!--                                <div class="middle"></div>-->
+<!--                            </div>-->
+<!--                            <div class="clouds">-->
+<!--                                <div class="cloudOne"></div>-->
+<!--                                <div class="cloudTwo"></div>-->
+<!--                                <div class="cloudThree"></div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="section fp-section fp-table fp-is-overflow" id="section2" data-anchor="2ndpage" style="padding-left: 10px; padding-right: 10px;">-->
+<!--            <div class="container mt-5">-->
+<!--                <div class="row">-->
+<!--                    <div class="col-md-6">-->
+<!--                        <div class="row justify-content-center pg2Title">-->
+<!--                            <h1 style="font-size: 50px; padding-bottom: 30px;">Welcome To Beyond Borders</h1>-->
+<!--                        </div>-->
+<!--                        <div class="row justify-content-center pg2Title">-->
+<!--                            <h3 style="font-size: 50px; padding-bottom: 30px;">HOW IT WORKS</h3>-->
+<!--                        </div>-->
+<!--                        <div class="row justify-content-center">-->
+<!--                            <p>Embark on an exhilarating and personalized journey with "Beyond Borders" — your passport to discovering the perfect state and home!</p>-->
+<!--                        </div>-->
+<!--                        <div class="row justify-content-center">-->
+<!--                            <p>Navigating the uncharted territories of a new country can be a thrilling challenge. "Beyond Borders" is here to revolutionize your relocation experience, offering a comprehensive and user-friendly solution that turns the unknown into an adventure.</p>-->
+<!--                        </div>-->
+<!--                        <div class="row justify-content-center">-->
+<!--                            <p>Picture this: You'll start by answering a set of fun questions that reflect your desires. Our cutting-edge matching algorithm will then craft a tailor-made journey through your dream state, unveiling details about age, race, and climate breakdowns. But hold on, it doesn't end there! You'll also witness fascinating comparisons, pitting your chosen state against others across the nation.</p>-->
+<!--                        </div>-->
+<!--                        <div class="row justify-content-center">-->
+<!--                            <p>Whether you're a student, a professional, or a family, "Beyond Borders" is your partner in finding the state that perfectly suits you. Get ready for an enjoyable journey filled with surprises!</p>-->
+<!--                        </div>-->
+<!--                        <div class="row justify-content-center">-->
+<!--                            <p>"Beyond Borders" is more than just a tool — it's your guide, paving the way to your ideal home and instilling a sense of comfort and confidence in the face of the unknown. Let the adventure begin!</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-6">-->
+<!--                        <div class="paperplane">-->
+<!--                            &lt;!&ndash; Airplane visual goes here &ndash;&gt;-->
+<!--                            <div class="plane">-->
+<!--                                <div class="wingRight"></div>-->
+<!--                                <div class="wingLeft"></div>-->
+<!--                                <div class="bottom"></div>-->
+<!--                                <div class="top"></div>-->
+<!--                                <div class="middle"></div>-->
+<!--                            </div>-->
+<!--                            <div class="clouds">-->
+<!--                                <div class="cloudOne"></div>-->
+<!--                                <div class="cloudTwo"></div>-->
+<!--                                <div class="cloudThree"></div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+
+
+/*#section1 {*/
+/*        height: 100%;*/
+/*        width: 100%;*/
+/*        background-color: hsla(200,40%,30%,.4);*/
+/*        background-image:*/
+/*                url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'),*/
+/*                url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),*/
+/*                url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),*/
+/*                url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),*/
+/*                url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');*/
+/*        background-repeat: repeat-x;*/
+/*        background-position:*/
+/*                0 20%,*/
+/*                0 100%,*/
+/*                0 50%,*/
+/*                0 100%,*/
+/*                0 0;*/
+/*        background-size:*/
+/*                2500px,*/
+/*                800px,*/
+/*                500px 200px,*/
+/*                1000px,*/
+/*                400px 260px;*/
+/*        animation: 50s para infinite linear;*/
+/*}*/
+
+/*@keyframes para {*/
+/*    100% {*/
+/*        background-position:*/
+/*                -5000px 20%,*/
+/*                -800px 95%,*/
+/*                500px 50%,*/
+/*                1000px 100%,*/
+/*                400px 0;*/
+/*    }*/
+/*}*/
+/*#section1 {*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    background-color: hsla(200,40%,30%,.4);*/
+/*    background-repeat: repeat-x;*/
+/*    background-position: 0 20%;*/
+/*    background-size: 2500px;*/
+/*    transition: background-image 2s ease;*/
+/*    animation: 50s para infinite linear;*/
+/*}*/
+
+/*@keyframes para {*/
+/*    100% {*/
+/*        background-position: -5000px 20%;*/
+/*    }*/
+/*}*/
+
+
+.paperplane {
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    background-color: #50befa;
+    border-radius:50%;
+}
+
+.plane {
+    position: absolute;
+    left:200px;
+    top:150px;
+    animation: move 3s linear infinite;
+}
+
+@keyframes move {
+    0% {transform: translateY(0) rotateX(0);}
+    25% {transform: translateY(-30px) rotateX(40deg);}
+    50% {transform: rotateX(0) translateY(0);}
+    75% {transform: rotateX(-40deg) translateY(30px);}
+    100% {transform: rotateX(0) translateY(0);}
+}
+
+.wingRight {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 22.5px solid transparent;
+    border-right: 12.5px solid transparent;
+    border-bottom: 115px solid white;
+    transform: rotate(61deg);
+    z-index:4;
+}
+
+.bottom {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 12.5px solid transparent;
+    border-right: 12.5px solid transparent;
+    border-bottom: 25.5px solid #676d70;
+    top: 71px;
+    transform: rotate(-5deg);
+    left:-52.5px;
+    z-index:3;
+}
+
+.top {
+    position:absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 30px solid #c1c7c9;
+    top: 65px;
+    transform: rotate(5deg);
+    left:-60px;
+    z-index:1;
+}
+
+.middle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 135px solid #c1c7c9;
+    top: -13.5px;
+    transform: rotate(72deg);
+    left:-7.5px;
+    z-index:2;
+}
+
+.wingLeft {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-bottom: 135px solid white;
+    transform: rotate(78deg) skewY(-35deg);
+    left:-18.5px;
+    z-index:3;
+    top:-30px;
+}
+
+.clouds {
+    position: absolute;
+    top:50px;
+    left:100px;
+}
+
+@keyframes cloud {
+    from{
+        left:-150px;
+    }
+    to{
+        left: 400px;
+    }
+}
+
+.cloudOne, .cloudTwo, .cloudThree {
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background-color: #fff;
+    border-radius:100px 100px 0 0;
+}
+
+.cloudOne {
+    top:0;
+    left:0;
+    animation: cloud 3s linear infinite reverse;
+}
+
+.cloudTwo {
+    top:50px;
+    left:100px;
+    animation: cloud 2.5s linear infinite reverse;
+}
+
+.cloudThree {
+    top:250px;
+    left:50px;
+    animation: cloud 2.8s linear infinite reverse;
+}
+
+.cloudOne:before, .cloudTwo:before, .cloudThree:before {
+    content:"";
+    position: absolute;
+    width: 25px;
+    height: 12.5px;
+    background-color: #fff;
+    border-radius:100px 100px 0 0;
+    left:-20px;
+    top:12.5px;
+    box-shadow: 65px 0 #fff;
+}
