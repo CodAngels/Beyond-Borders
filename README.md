@@ -4,9 +4,9 @@
 ## Project Description
 Moving and choosing a new place to live, whether for work or long-term, can be both exciting and stressful. "Beyond Borders" is an interactive tool crafted to assist international students and newcomers in navigating this significant life decision. It offers a personalized experience where users answer questions to get state recommendations aligning with their preferences. Additionally, the tool provides detailed visualizations and state comparisons, emphasizing demographics, crime rates, housing costs, and climate.
 
-## URL to Website
+## URL to Website: https://codangels.github.io/Beyond-Borders/
 
-## URL to Video
+## URL to Video: https://drive.google.com/file/d/1GYRY_h3hDhkQKnye-dSU7zh1T76NmR4j/view?usp=sharing
 
 ## Project Structure
 
