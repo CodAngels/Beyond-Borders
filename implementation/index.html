@@ -235,19 +235,6 @@
                     </div>
                 </div>
             </div>
-<!--            <div class="slide">-->
-<!--                <div class="container-fluid">-->
-<!--                    -->
-<!--                    <div class="facts-section-container">-->
-<!--                        <div id="text-container" class="mt-5">-->
-<!--                            &lt;!&ndash; Text content will be added dynamically by the JS code &ndash;&gt;-->
-<!--                        </div>-->
-<!--                        <div id="images-container" class="img-container mb-3">-->
-<!--                            &lt;!&ndash; Other images will be added dynamically by the JS code &ndash;&gt;-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
             <div class="slide">
                 <div class="container-fluid" id="background-container-three">
                     <div class="row">
@@ -277,7 +264,7 @@
             <div>
                 <div class="container mt-5" id="know-your-state">
                     <div class="row">
-                        <p class="header5text" >Learn more about the age and race decomposition of your selected state</p>
+                        <p class="header5text" >AGE AND RACE DECOMPOSITION OF YOUR SELECTED STATE</p>
                         <p class="p5text">Use the age and race breakdown tool to gain insights on the composition of your selected state. Assess demographic alignment to understand the pulse of the region, gauge community dynamics, and strategically plan for the future.</p>
                         <!-- PeopleVis content goes here -->
                         <div id="people-container" class="align-self-center" style="height: 0; padding-bottom: 56.25%; width: 100%;"></div>
@@ -290,7 +277,7 @@
             <div class="container mt-5">
                 <div class="row">
                     <div id="treeMapSection">
-                        <p class="header6text" >Learn more about the industries in your selected state</p>
+                        <p class="header6text" >INDUSTRIES IN YOUR SELECTED STATE</p>
                         <p class="p5text">Understand the economic landscape of your selected state with Beyond Borders. <strong>Click on an industry</strong> to reveal the revenue generated, industry rank compared to counterparts across the nation, and the top employers! </p>
                         <!-- TreeMapVis content goes here -->
                         <div id="treeMap-container" class="align-self-center" style="height: 0; padding-bottom: 56.25%; width: 100%;"></div>
@@ -303,7 +290,7 @@
             <div class="container mt-5">
                 <div class="row">
                     <div id="climateSection">
-                        <p class="header7text">Learn more about the weather in your selected state</p>
+                        <p class="header7text">WEATHER IN YOUR SELECTED STATE</p>
                         <p class="p5text" style="color:black">Explore the average weather conditions in your matched state. </p>
                         <!-- climateMapVis content goes here -->
                         <div id="climateMap-container" class="align-self-center" style="height: 0; padding-bottom: 56.25%; width: 100%;"></div>
@@ -332,15 +319,15 @@
             </div>
         </div>
         <div class="section fp-section fp-table fp-is-overflow.custom-overflow fp-overflow" id="section9" data-anchor="9thpage" style="background-color:#F1F7EE; padding-bottom: 20px">
-            <div class="container mt-5">
+            <div class="container mt-5" style="margin-top: 20px;">
                 <div class="row">
-                    <h5 class="compareBarTitle">COMPARISON BAR CHART</h5>
-                    <div id="instructions">
-                        <p>Now that you have explored your matched state, test how well you know it along the following metrics:</p>
+                    <h5 class="compareBarTitle" style="padding-top: 30px;">COMPARISON BAR CHART</h5>
+                    <div id="instructions" style="margin-top: 20px;">
+                        <p class="p2text">How to use the bar chart:</p>
                         <ol>
-                            <li>Select the Metric among Crime Rate, State Tax, Average Income per Capita, Cost Of Living Index and Unemployment Rate</li>
-                            <li> Guestimate the ranking of Your Matched state by Clicking on a bar to select it</li>
-                            <li> Click the "See Actual Ranking" button to check if you guessed it right</li>
+                            <li class="p2text">Choose a metric from options like Crime Rate, State Tax, Average Income per Capita, Cost Of Living Index, and Unemployment Rate.</li>
+                            <li class="p2text">Make a guess about the ranking of your matched state by clicking on a corresponding bar!</li>
+                            <li class="p2text">Verify your estimate by clicking the "See Actual Ranking" button to see if you guessed correctly!</li>
                         </ol>
                     </div>
                     <div class="col-md-8" id="ranking-selector-container">
@@ -368,17 +355,6 @@
                     </div>
                 </div>
             </div>
-<!--            <div class="container mt-auto">-->
-<!--                <div class="row p8text">-->
-<!--                    <p>1. Choose a metric from options like Crime Rate, State Tax, Average Income per Capita, Cost Of Living Index, and Unemployment Rate.</p>-->
-<!--                </div>-->
-<!--                <div class="row p8text">-->
-<!--                    <p>2. Make a guess about the ranking of your matched state by clicking on a corresponding bar!</p>-->
-<!--                </div>-->
-<!--                <div class="row p8text">-->
-<!--                    <p>3. Verify your estimate by clicking the "See Actual Ranking" button to see if you guessed correctly!</p>-->
-<!--                </div>-->
-<!--            </div>-->
         </div>
         <div class="section fp-section fp-table fp-is-overflow" id="section10" data-anchor="10thpage" style="text-align: center">
             <div class="container mt-5">
@@ -389,22 +365,59 @@
 
                     <!-- Buttons -->
                     <div id="controls">
-                        <span>
-                          <label><input id="combine" type="radio" name="grouping" value="combine" checked>Combine</label>
-                          <label><input id="housingPrices" type="radio" name="grouping" value="housingPrices">Housing Prices</label>
-                          <label><input id="costOfLiving" type="radio" name="grouping" value="cost-of-living">Cost Of Living</label>
-                        </span>
+                        <label class="pr-3"><input id="combine" type="radio" name="grouping" value="combine" checked>Combine</label>
+                        <label class="pr-3"><input id="housingPrices" type="radio" name="grouping" value="housingPrices">Housing Prices</label>
+                        <label><input id="costOfLiving" type="radio" name="grouping" value="cost-of-living">Cost Of Living</label>
                     </div>
-                    <div id="state-info"></div>
                     <div id="bubble-chart"></div>
                 </div>
             </div>
         </div>
-        <div class="section fp-section fp-table fp-is-overflow.custom-overflow fp-overflow" id="section11" data-anchor="11thpage" style="text-align: center">
-            <div class="container mt-5" style="padding-top: 30px">
-                <h1>hi</h1>
-
-                <p></p>
+        <div class="section fp-section fp-table fp-is-overflow.custom-overflow fp-overflow" id="section11" data-anchor="11thpage" style="padding: 60px; height: 100vh;">
+            <div class="container">
+                <h1 class="mt-4 mb-4 text-center pg2Title" style="font-size: 50px; font-weight: bold; color:#92aa83ff; padding-bottom: 20px">WRAPPING UP YOUR JOURNEY ON BEYOND BORDERS</h1>
+                <p class="p2text" style="padding-bottom: 40px;">Your journey on <strong>BEYOND BORDERS</strong> was not just a virtual tour; it was a strategic exploration shaping your decision-making process for relocation in the United States. Each data point served a purpose — guiding you to a place you can call <strong>home</strong>.</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="rounded-card" style="border-radius: 15px; margin: 10px; padding: 20px; text-align: center;">
+                            <h3 class="header9text">MATCHING</h3>
+                            <p class="p2text" style="padding-top: 20px;">You discovered a compatible state through our unique matching algorithm. Our matching process allowed an in-depth analysis of the state.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rounded-card" style="border-radius: 15px; margin: 10px; padding: 20px; text-align: center;">
+                            <h3 class="header9text">EXPLORATION</h3>
+                            <p class="p2text" style="padding-top: 20px;">You unveiled insights on age, race, industries and weather in your matched state for a comprehensive understanding of its uniqueness.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="rounded-card" style="border-radius: 15px; margin: 10px;padding: 20px; text-align: center;">
+                            <h3 class="header9text">COMPARISON</h3>
+                            <p class="p2text" style="padding-top: 20px;">You analyzed state taxes, income, living costs, crime rates, housing prices, and more, for a well-informed data-driven relocation perspective.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center p2text" style="padding-top: 40px; padding-bottom: 20px">
+                    <p>Let's wrap up by getting a holistic overview of the United States to gain a broader perspective of what makes each state unique. Alternatively, revisit the matching section to explore another state.</p>
+                </div>
+                <div class="row justify-content-center p2text">
+                    <div class="col-md-6 text-center">
+                        <button id="explore" class="btn btn-primary clickBtn">Explore Choropleth Map</button>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <button id="back" class="btn btn-primary clickBtn">Revisit State Matcher</button>
+                    </div>
+                </div>
+                <script>
+                    document.getElementById('explore').addEventListener('click', function() {
+                        // Scroll to Section 12
+                        fullpage_api.moveTo(12);
+                    });
+                    document.getElementById('back').addEventListener('click', function() {
+                        // Scroll to Section 3
+                        fullpage_api.moveTo(3);
+                    });
+                </script>
             </div>
         </div>
         <div class="section fp-section fp-table fp-is-overflow.custom-overflow fp-overflow" id="section12" data-anchor="12thpage" style="text-align: center">

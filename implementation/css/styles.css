@@ -516,7 +516,7 @@ option {
     font-family: 'Roboto', sans-serif !important;
     color: white;
     font-weight: bold;
-    font-size: 16px !important;
+    font-size: 14px !important;
     line-height: 32px !important;
     font-weight: 400 !important;
     letter-spacing: 0.05em !important;
@@ -750,7 +750,35 @@ option {
     letter-spacing: 0.1em !important;
 }
 
-/*Section 12 -> Choropleth*/
+/* Section 11 -> Recap */
+#section11{
+    background-color: #F1F7EE;
+}
+
+.clickBtn{
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 22px !important;
+    background-color: #92aa83ff;
+    height: 40px;
+    /*width: vis.width;*/
+    border: 0.5px solid black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.clickBtn:hover {
+    background-color: darkolivegreen;
+}
+
+.clickBtn.selected {
+    background-color: darkolivegreen;
+    color: white;
+}
+
+/*bSection 12 -> Choropleth */
 #section12{
     background-color: #F1F7EE;
 }
@@ -763,6 +791,17 @@ option {
     line-height: 22px !important;
     font-weight: bold;
     letter-spacing: 0.1em !important;
+}
+
+#heatmap-tooltip{
+    text-align: center;
+    font-family: 'Roboto', sans-serif !important;
+    color: black;
+    font-size: 14px !important;
+    line-height: 32px !important;
+    letter-spacing: 0.05em !important;
+    font-weight: normal;
+    width: 150px;
 }
 
 /*FONTS*/

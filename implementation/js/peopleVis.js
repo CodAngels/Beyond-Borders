@@ -63,7 +63,7 @@ class PeopleVis {constructor(parentElement, ageData, raceData, dataType) {
     // Listen for the custom event and update matchedState
     document.addEventListener('StateSelected', (event) => {
         this.selectedState = event.detail;
-        this.selectedStateName = this.initialToStateName[this.selectedState];
+        this.selectedStateName = this.initialToStateName[this.selectedState].toUpperCase();
         this.wrangleData();
     });
 }
@@ -222,8 +222,7 @@ class PeopleVis {constructor(parentElement, ageData, raceData, dataType) {
 
     updateVis() {
         let vis = this;
-        document.querySelector('.header5text').innerText = `Learn more about the age and race decomposition of ${vis.selectedStateName}`;
-
+        document.querySelector('.header5text').innerText = `AGE AND RACE DECOMPOSITION OF ${vis.selectedStateName}`;
 
         // Define color scale
         if (vis.selectedDataType === "age") {

@@ -835,8 +835,7 @@
       {"company":  "Weston", "Employees":  140800}
     ]
   },
-  [
-    {
+  {
       "state": "Oklahoma",
       "industries": [
         {"industry": "Mining, quarrying, and oil and gas extraction", "revenue": 29.3, "rank": 2},
@@ -1004,8 +1003,7 @@
         {"company":  "Schlumberger", "Employees":  86000}
       ]
     },
-    [
-      {
+    {
         "state": "Utah",
         "industries": [
           {"industry": "Real Estate, Rental and Leasing", "revenue": 24.4, "rank": 28},
@@ -1152,7 +1150,6 @@
           {"company":  "Powell Valley Care Ctr", "Employees":  3734}
         ]
       }
-    ]
-  ]
 ]
+
 

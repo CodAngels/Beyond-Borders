@@ -27,8 +27,8 @@ function createBubbleChart(error, states, housingPriceMedian) {
   var housingPriceColorScale = d3.scaleOrdinal().range(customColors)
       .domain([...housingPrices]);
 
-  var width = 1000,
-      height = 600;
+  var width = 1300,
+      height = 650;
   var svg,
       circles,
       circleSize = { min: 10, max: 70 };
@@ -61,7 +61,7 @@ function createBubbleChart(error, states, housingPriceMedian) {
       titleElement.innerHTML = '';
 
       const titleText = document.createElement('h2');
-      titleText.textContent = `How ${selectedStateFullName} compares in terms of cost of living and housing prices`;
+      titleText.textContent = `COST OF LIVING AND HOUSING PRICES IN ${selectedStateFullName.toUpperCase()}`;
       titleElement.appendChild(titleText);
 
       const paraText = document.createElement('p');
@@ -160,25 +160,58 @@ function createBubbleChart(error, states, housingPriceMedian) {
         .attr("r", function(d) { return circleRadiusScale(d.CostOfLiving); })
         .style("stroke", "white")   // Set stroke color to white
         .style("stroke-width", 1.5)
-        .on("mouseover", handleMouseover)
+        .on("mouseover", function(event, d) {
+          handleMouseover(event, d);
+        })
         .on("mouseout", handleMouseout);
 
     updateCircles();
 
+    var tooltip = svg.append("g")
+        .attr("id", "state-info")
+        .style("opacity", 0)
+        .style("pointer-events", "none");
+
+    tooltip.append("rect")
+        .attr("width", 170)
+        .attr("height", 40)
+        .attr("rx", 10)  // Rounded corners
+        .style("fill", "#f0f0f0")
+        .style("stroke", "#333")
+        .attr("center", "middle")
+        .style("stroke-width", 1);
+
+    tooltip.append("text")
+        .attr("x", 10)
+        .attr("y", 25)
+        .style("font-size", "14px")
+        .style("fill", "#333");
+
     function handleMouseover(event, d) {
-      updateStateInfo(d);
+      var tooltip = d3.select("#state-info");
+
+      tooltip.transition()
+          .duration(200)
+          .style("opacity", 0.9);
+
+      tooltip.select("text")
+          .text(d.StateName + ": " + formatCostOfLiving(d.CostOfLiving));
+
+      var tooltipWidth = tooltip.node().getBBox().width;
+      var tooltipHeight = tooltip.node().getBBox().height;
+
+      var xPosition = event.pageX - tooltipWidth / 2;
+      var yPosition = event.pageY / 1.4;
+
+      tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
     }
 
     function handleMouseout() {
-      updateStateInfo(null); // Pass null to indicate mouseout
-    }
+      var tooltip = d3.select("#state-info");
 
-    function updateStateInfo(state) {
-      var info = "";
-      if (state) {
-        info = state.StateName + ": " + formatCostOfLiving(state.CostOfLiving);
-      }
-      d3.select("#state-info").html(info);
+      tooltip.transition()
+          .duration(500)
+          .style("opacity", 0);
     }
   }
 

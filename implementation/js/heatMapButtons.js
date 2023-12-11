@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     d3.json('https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json').then(function (geoData) {
-        Papa.parse('data/mapData.csv', {
+        Papa.parse('data/heatMapData.csv', {
             download: true,
             header: true,
             skipEmptyLines: true,

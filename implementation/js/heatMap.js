@@ -46,7 +46,7 @@ class HeatMapVis {
             .attr('id', d => d.properties.abbr)
             .attr('stroke', 'white')
             .attr('stroke-width', 0.5)
-            .style('fill', 'grey');
+            .style('fill', 'lightgray');
 
         // Append tooltip
         vis.tooltip = d3.select('body').append('div')
@@ -97,13 +97,15 @@ class HeatMapVis {
         // Add text labels
         legend.append("text")
             .attr("x", 0)
-            .attr("y", legendHeight + 10)
-            .text("Low"); // Adjust text based on your data
+            .attr("y", legendHeight + 20)
+            .text("Low")
+            .attr("class", "legend-text"); // Adjust text based on your data
 
         legend.append("text")
             .attr("x", legendWidth)
-            .attr("y", legendHeight + 10)
+            .attr("y", legendHeight + 20)
             .style("text-anchor", "end")
+            .attr("class", "legend-text")
             .text("High"); // Adjust text based on your data
     }
 
@@ -138,8 +140,8 @@ class HeatMapVis {
                     vis.tooltip
                         .style('opacity', 1)
                         .style('left', event.pageX + 10 + 'px')
-                        .style('top', event.pageY + 'px')
-                        .html(`<div style=" background: whitesmoke; padding: 1px; border-radius: 10px"><p>${stateName}: ${stateData[attribute]}</p></div>`);
+                        .style('top', event.pageY + 10 + 'px')
+                        .html(`<div style=" background: whitesmoke; border-radius: 5px"><p>${stateName}: ${stateData[attribute]}</p></div>`);
                 }
             })
             .on('mouseout', function () {
